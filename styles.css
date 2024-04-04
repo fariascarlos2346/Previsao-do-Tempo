@@ -30,7 +30,7 @@ input {
    padding: 10px; /* espaçamento interno */
    border-radius: 25px; /* arredonda as bordas */
    font-size: 20px;
-   background-color: #0da755;
+   background-color: #000000;
    color: #ffffff;
    width: calc( 100% - 100px);
 }
@@ -49,10 +49,6 @@ button:hover {
    background-color: #ffffff;
 }
 
-.caixa-media {
-
-}
-
 .lupa {
    height: 25px;
 }
@@ -60,21 +56,21 @@ button:hover {
 h2 {
    color: white;
    font-size: 30px; /* tamanho texto */
-   margin-top: 15px;
+   margin-top: 30px;
 }
 
 .temp {
    color: white;
    font-size: 25px;
-   margin-top: 10px;
+   margin-top: 30px;
 }
 
 .descricao {
    color: white;
-   margin-top: 10px;
+   margin-top: 30px;
 }
 
 .umidade {
    color: white;
-   margin-top: 10px;
+   margin-top: 30px;
 }
