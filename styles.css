@@ -2,6 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: "Open Sans", sans-serif;
 }
 
 
@@ -16,7 +17,8 @@ body {
 
 .caixa-maior {
    background-color: #000000; /* troca cor de fundo */
-   width: 430px; /* largura */
+   width: 95%; /* largura */
+   max-width: 420px; /* largura maxima */
    opacity: 0.5;
    padding: 20px;
    border-radius: 30px;
@@ -28,7 +30,9 @@ input {
    padding: 10px; /* espaçamento interno */
    border-radius: 25px; /* arredonda as bordas */
    font-size: 20px;
-   background-color: #7c7c2b;
+   background-color: #0da755;
+   color: #ffffff;
+   width: calc( 100% - 100px);
 }
 
 button {
@@ -36,17 +40,17 @@ button {
    outline: none;
    padding: 10px;
    border-radius: 50px;
-   background-color: #7c7c2b;
+   background-color: #c6c669;
    float: right;
    cursor: pointer;
 }
 
 button:hover {
-   background-color: antiquewhite;
+   background-color: #ffffff;
 }
 
 .caixa-media {
-   
+
 }
 
 .lupa {
@@ -56,13 +60,21 @@ button:hover {
 h2 {
    color: white;
    font-size: 30px; /* tamanho texto */
+   margin-top: 15px;
 }
 
 .temp {
-   color: blue;
+   color: white;
    font-size: 25px;
+   margin-top: 10px;
 }
 
 .descricao {
-   color: aqua;
+   color: white;
+   margin-top: 10px;
+}
+
+.umidade {
+   color: white;
+   margin-top: 10px;
 }
